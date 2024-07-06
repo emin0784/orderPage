@@ -1,0 +1,58 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color:#fff;
+    color: #06255B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color:  #CBEDEE;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+    font-weight: 500;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #23B3B6;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #23B3B6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 700;
+}
+
+input[type="submit"]:hover {
+    background-color: #06255B;
+}
+
+@media (max-width: 400px) {
+    form {
+        width: 90%;
+    }
+}
